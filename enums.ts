@@ -2,13 +2,13 @@
 
 //Reverse enum - обращаться к своим данным в обоих направлениях
 enum Direction {
-    Up1,
+    Up12,
     Down1,
     Left1,
     Right1
 }
 
-Direction[0] //Up1;
+Direction[0] //Up12;
 Direction[1] //Down1;
 Direction[2] //Left1;
 Direction[3] //Right1;
