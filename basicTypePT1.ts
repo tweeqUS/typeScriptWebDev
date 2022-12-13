@@ -58,3 +58,12 @@ typeof undefined; //undefined
 //TypeScript
 const u: undefined = undefined;
 const n: null = null;
+
+//Void type - предназначен для определения отсутствующих типов
+const greetUser = (): void => {
+    alert('Hello bitches :)');
+}
+//error: Type'() => void
+// const greetUser1: void = () => {
+//     alert('hello error (')
+// }
